@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.api.run_agent import router as run_agent_router
+from .api.run_agent import router as run_agent_router
 from fastapi.responses import HTMLResponse
 
 
